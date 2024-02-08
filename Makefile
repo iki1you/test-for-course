@@ -36,3 +36,7 @@ check_lint:
 	isort --check --diff .
 	flake8 --config setup.cfg
 	black --check --config pyproject.toml .
+
+
+run_bot:
+	python src\app\internal\bot.py
